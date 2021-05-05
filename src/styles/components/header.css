@@ -7,12 +7,43 @@
     align-items: center;
     padding: 0 15px;
 }
-.logo{
+.leftHeader{
     display: flex;
     align-items: center;
 }
-.logoImg {
+.centerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.iconLogo {
     margin-right: 5px;
     height: 30px;
+}
+.buttonSearch{
+    padding: 0rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 4rem;
+    background-color: #303030;
+    border-style: hidden;
+    border: 1px solid #303030;
+}
+.iconSearch {
+    margin-right: 5px;
+    height: 15px;
+}
+.search  {
+    display: flex;
+    border-style: hidden;
+    border: 1px solid #303030;
+    background-color: #181818;
+    width: 50rem;
+    height: 2rem;
+}
+.search::placeholder{
+    display: flex;
+    margin-left: 15px;
+    font-size: 20px;
 }
 
