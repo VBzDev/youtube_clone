@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Header from '../components/Header'
 
 /* ------------------------------- Componentes---------------- */
 import Teste from '../components/teste'
-
 
 import conteudo from '../conteudo.json'
 
@@ -13,15 +13,8 @@ const Home = () => {
     }
 
     return (
-        <div>
-            <Link to="/exemplo">
-                <button onClick={showConsole}>oi</button>
-            </Link>
-            {conteudo.videos.map(item => {
-                return (
-                    <Teste nome="joao" />
-                )
-            })}
+        <div className="header">
+            <Header />
         </div>
     )
 }
