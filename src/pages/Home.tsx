@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Header from '../components/Header'
+import MenuBar from '../components/MenuBar'
 import "../styles/pages/Home.css"
 
 /* ------------------------------- Componentes---------------- */
@@ -15,7 +16,10 @@ const Home = () => {
 
     return (
         <div className="homePage">
+
             <Header />
+            <MenuBar />
+
         </div>
     )
 }

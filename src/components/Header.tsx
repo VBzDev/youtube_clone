@@ -1,6 +1,5 @@
-import react from 'react';
+import React, { useState } from 'react';
 import iconLogo from "../public/images/youtube-logo-7-2.png";
-import Menu from "./icons/menu"
 import iconSearch from "../public/images/search.png";
 import { faVideo, faBell, faTh } from "@fortawesome/free-solid-svg-icons"
 import imgConta from "../public/images/lucasinutil.png"
@@ -11,11 +10,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import "../styles/components/header.css"
 
-export default function headers() {
+export default function Headers() {
+
+
+
     return (
         <div className="container">
             <div className="leftHeader">
-                <Menu/>
                 <img className="iconLogo" src={iconLogo} />
                 Youtube
             </div>
